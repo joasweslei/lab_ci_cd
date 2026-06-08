@@ -13,9 +13,9 @@ Você tem uma classe `Aluno` que calcula a aprovação. Seu objetivo é garantir
 5. **Proteção:** Configure a `branch protection rule` na aba *Settings* para exigir que o Status Check do seu CI passe antes de permitir um *Merge*.
 6. **Quebra de Build:** Altere a lógica da classe `Aluno` para que um teste falhe. Faça o `push` e observe o GitHub Actions em ação!
 
-### como obter o projeto na sua máquina
-git clone <url>
+### Como obter o projeto na sua máquina e executar os testes
+git clone https://github.com/joasweslei/lab_ci_cd.git
 
 pip install pytest
 
-pytest
+python -m pytest
