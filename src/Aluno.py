@@ -3,6 +3,6 @@ class Aluno:
         self.matricula = matricula
         self.nome = nome
 
-    def calculaAprovacao(self, nota, faltas):
+    def calcula_aprovacao(self, nota, faltas):
         # Regra: nota mínima 7.0 e máximo 10 faltas
         return nota >= 7.0 and faltas <= 10
